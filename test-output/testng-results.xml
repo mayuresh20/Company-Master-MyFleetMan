@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="123833" started-at="2019-06-14T09:26:14Z" finished-at="2019-06-14T09:28:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="123833" started-at="2019-06-14T09:26:14Z" finished-at="2019-06-14T09:28:18Z">
+      <class name="com.CompanyMaster.TestBase">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.CompanyMaster.TestBase@1bce4f0a]" name="suiteSetUp" is-config="true" duration-ms="3992" started-at="2019-06-14T09:26:14Z" finished-at="2019-06-14T09:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="LaunchWebsite()[pri:1, instance:com.CompanyMaster.TestBase@1bce4f0a]" name="LaunchWebsite" duration-ms="5576" started-at="2019-06-14T09:26:18Z" description="Opens the Website for Login Test" finished-at="2019-06-14T09:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite -->
+        <test-method status="PASS" signature="FillLoginDetails()[pri:2, instance:com.CompanyMaster.TestBase@1bce4f0a]" name="FillLoginDetails" duration-ms="1147" started-at="2019-06-14T09:26:24Z" description="Fill the Login Details" finished-at="2019-06-14T09:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails -->
+        <test-method status="PASS" signature="DoLogin()[pri:3, instance:com.CompanyMaster.TestBase@1bce4f0a]" name="DoLogin" duration-ms="3613" started-at="2019-06-14T09:26:25Z" description="Perform Login" finished-at="2019-06-14T09:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="FillCompanyMasterForm()[pri:4, instance:com.CompanyMaster.TestBase@1bce4f0a]" name="FillCompanyMasterForm" duration-ms="97503" started-at="2019-06-14T09:26:28Z" description="Fill Company Master Form" finished-at="2019-06-14T09:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillCompanyMasterForm -->
+        <test-method status="PASS" signature="Logout()[pri:5, instance:com.CompanyMaster.TestBase@1bce4f0a]" name="Logout" duration-ms="7178" started-at="2019-06-14T09:28:06Z" description="Logout From the Application" finished-at="2019-06-14T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.CompanyMaster.TestBase@1bce4f0a]" name="suiteTearDown" is-config="true" duration-ms="4780" started-at="2019-06-14T09:28:13Z" finished-at="2019-06-14T09:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.CompanyMaster.TestBase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
